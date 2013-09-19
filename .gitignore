@@ -1,9 +1,12 @@
-# By default, ignore all files in root directory.
+# Ignore
 *~
+/vendor
+composer.phar
 composer.lock
+.DS_Store
+
 
 # Exceptions
 !/.gitignore
 !/composer.json
-!/composer.phar
 
