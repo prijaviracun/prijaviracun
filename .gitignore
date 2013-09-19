@@ -1,0 +1,9 @@
+# By default, ignore all files in root directory.
+*~
+composer.lock
+
+# Exceptions
+!/.gitignore
+!/composer.json
+!/composer.phar
+
